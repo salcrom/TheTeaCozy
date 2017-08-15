@@ -7,6 +7,7 @@ body {
 	background-color: black;
 	opacity: 0.9;
 	text-align: center;
+	padding: 0 40px;
 }
 
 header {
@@ -51,18 +52,73 @@ section#s1 {
 }
 
 .mission {
+	margin: 0 auto;
 	background-color: black;
 	max-width: 1200px;
 	vertical-align: center;
+	align-content: center;
 }
 
+section#s2 {
+	display: block;
+	width: 100%;
+	margin-top: 910px;
+	margin-bottom: 50px;
+	position: absolute;
+	justify-content: center;
+}
 
+.menu {
+	margin: 0 auto;
+	max-width: 1000px;
+	justify-content: center;
+}
 
+.foto {
+	width: 300px;
+	height: 200px;
+	margin: 10px; 
+}
 
+section#s3 {
+	display: flex;
+	max-width: 1200px;
+	height: 500px;
+	position: absolute;
+	margin: 1750px auto 20px auto;
+	background-image: url("file:///Users/salcrom/projects/TheTeaCozy/resources/images/img-locations-background.jpg");
+	background-size: cover;
+	justify-content: space-around;
+	align-items: center;
+}
 
+.location {
+	width: 300px;
+	height: 200px;
+	margin: 15px 40px;
+	padding: 1px;
+	color: seashell;
+	background-color: black;
+	opacity: 1;
+}
 
+.location p{
+	font-size: 16px;
+}
 
+section#s4 {
+	width: 100%;
+	height: 200px;
+	position: absolute;
+	margin-top: 2250px;
+}
 
+footer{
+	height: 50px;
+	position: absolute;
+	margin-top: 2450px;
+	padding-left: -20px;
+	text-align: left;
+	font-size: 16px;
+}
 
-
-º
